@@ -3,13 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Merhaba</title>
+    <title>Hasan Doğan — Yazılım Öğrencisi</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="container">
-      <h1>Merhaba</h1>
-      <p>Ben Hasan Doğan, yazılım öğrencisiyim.</p>
-    </div>
+    <canvas id="bgCanvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <div class="wrap">
+        <h1 class="name">Hasan Doğan</h1>
+        <div class="role">Aksaray Üniversitesi, Yazılım Mühendisliği — 4. sınıf</div>
+        <div class="typing">Ben <span id="typing"></span><span class="cursor">|</span></div>
+        <div class="controls">
+          <button id="themeToggle" aria-label="Tema değiştir">Tema</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="card about">
+        <h2>Hakkımda</h2>
+        <p>Aksaray Üniversitesi Yazılım Mühendisliği 4. sınıf öğrencisiyim. .NET Core üzerinde çalışıyorum. Junior yazılım mühendisiyim; backend teknolojileri üzerinde yoğunlaşıyorum ve REST API'ler yazıyorum.</p>
+      </section>
+
+      <section class="card skills">
+        <h2>Uzmanlıklar</h2>
+        <ul class="badges">
+          <li>.NET Core</li>
+          <li>C#</li>
+          <li>REST API</li>
+          <li>SQL</li>
+          <li>Docker (temel)</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section class="card contact">
+        <h2>İletişim</h2>
+        <p>E-posta: <a href="mailto:hasan@example.com">hasan@example.com</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">© 2026 Hasan Doğan — Junior Yazılım Mühendisi</div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
