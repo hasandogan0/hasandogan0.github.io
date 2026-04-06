@@ -14,7 +14,6 @@ This website is designed to showcase my projects, technical skills, and professi
 ###  Built With
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Deployment:** GitHub Pages
-* **Framework/Library:** [Örn: Bootstrap, Tailwind veya Jekyll - kullandığını buraya yaz]
 
 ### Structure
 * `index.html`: Main landing page.
@@ -25,18 +24,13 @@ This website is designed to showcase my projects, technical skills, and professi
 
 ## 🇹🇷 Türkçe
 
-### 🚀 Proje Hakkında
+###  Proje Hakkında
 Bu web sitesi; projelerimi, teknik yeteneklerimi ve profesyonel geçmişimi sergilemek amacıyla tasarlanmıştır. Dijital dünyadaki imzam ve çalışmalarımın toplandığı merkezdir.
 
-### 🛠️ Neler Kullanıldı?
+###  Neler Kullanıldı?
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Yayınlama:** GitHub Pages
-* **Framework/Kütüphane:** [Örn: Bootstrap, Tailwind veya Jekyll]
 
-### Dosya Yapısı
-* `index.html`: Ana giriş sayfası.
-* `assets/`: Görseller, CSS ve JS dosyaları.
-* `projects/`: Çalışmalarım hakkında detaylar.
 
 ---
 
@@ -49,6 +43,6 @@ Projeyi yerelinizde çalıştırmak için:
 
 ---
 
-## 📬 Contact / İletişim
-* **LinkedIn:** [linkedin.com/in/kullaniciadi](https://linkedin.com/in/kullaniciadi)
-* **Email:** [eposta@adresiniz.com]
+##  Contact / İletişim
+* **LinkedIn:** [https://www.linkedin.com/in/hasan-do%C4%9Fan-68504029b/]
+* **Email:** [hasandogandev@gmail.com]
