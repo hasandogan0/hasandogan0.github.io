@@ -48,6 +48,22 @@
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   });
 
+  // Mobil menü toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  if(navToggle){
+    navToggle.addEventListener('click', ()=>{
+      const opened = document.documentElement.classList.toggle('nav-open');
+      navToggle.setAttribute('aria-expanded', opened ? 'true' : 'false');
+    });
+    // Kapatmak için linklere tıklandığında menüyü kapat
+    if(navLinks){
+      navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=>{
+        document.documentElement.classList.remove('nav-open');
+      }));
+    }
+  }
+
   // Basit scroll reveal
   const cards = document.querySelectorAll('.card');
   const obs = new IntersectionObserver((entries)=>{
@@ -79,7 +95,7 @@
   resize();
 
   const count = Math.max(40, Math.min(140, Math.floor((window.innerWidth*window.innerHeight)/90000)));
-  const colors = [ '220, 95, 255', '45, 130, 255', '120, 90, 255' ];
+  const colors = [ '245, 158, 11', '194, 65, 12', '217, 119, 6' ];
 
   for(let i=0;i<count;i++){
     particles.push({
@@ -105,8 +121,8 @@
 
     // subtle background gradient overlay
     const g = ctx.createLinearGradient(0,0,window.innerWidth,window.innerHeight);
-    g.addColorStop(0, 'rgba(8,10,20,0.02)');
-    g.addColorStop(1, 'rgba(8,20,40,0.02)');
+    g.addColorStop(0, 'rgba(20,15,10,0.02)');
+    g.addColorStop(1, 'rgba(40,25,10,0.02)');
     ctx.fillStyle = g; ctx.fillRect(0,0,window.innerWidth,window.innerHeight);
 
     for(const p of particles){
