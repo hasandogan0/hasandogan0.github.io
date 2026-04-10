@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://hasandogan0.github.io/sitemap.xml
