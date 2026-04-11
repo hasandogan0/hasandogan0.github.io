@@ -46,9 +46,12 @@ export default function Hero() {
 
   return (
     <section id="home" className="hero">
-      <div className="wrap hero-inner">
-        {/* Left: Text */}
-        <div className="hero-text">
+      <div className="wrap hero-inner centered-hero">
+        <div className="hero-content">
+          <div className="hero-img-wrap">
+            <img src="https://placehold.co/200x200/222/FFF?text=HD" alt="Hasan Doğan" className="profile-img" />
+          </div>
+          
           <div className="hero-greeting">👋 Merhaba, ben</div>
           <h1 className="hero-title">
             <span className="name">Hasan</span> Doğan
@@ -60,7 +63,7 @@ export default function Hero() {
             <span>{displayText}</span>
             <span className="cursor-blink" aria-hidden="true" />
           </div>
-          <div className="hero-cta">
+          <div className="hero-cta centered-cta">
             <a id="heroCta1" className="btn btn-primary" href="#projects">
               🚀 Projelerime Göz At
             </a>
@@ -69,46 +72,6 @@ export default function Hero() {
             </a>
           </div>
         </div>
-
-        {/* Right: Info Card */}
-        <aside className="hero-card" aria-label="Hızlı bilgiler">
-          <p className="hero-card-title">Hızlı Bilgiler</p>
-
-          <div className="hero-card-row">
-            <span className="icon">📍</span>
-            <div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--muted)', marginBottom: '2px' }}>Konum</div>
-              Aksaray, Türkiye
-            </div>
-          </div>
-
-          <div className="hero-card-row">
-            <span className="icon">🎓</span>
-            <div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--muted)', marginBottom: '2px' }}>Eğitim</div>
-              Aksaray Üniversitesi<br />
-              <span style={{ color: 'var(--muted)', fontSize: '0.8rem' }}>Yazılım Mühendisliği</span>
-            </div>
-          </div>
-
-          <div className="hero-card-row">
-            <span className="icon">📧</span>
-            <div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--muted)', marginBottom: '2px' }}>E-posta</div>
-              <a href="mailto:hasandqn106@gmail.com">hasandqn106@gmail.com</a>
-            </div>
-          </div>
-
-          <div className="hero-card-row">
-            <span className="icon">🐙</span>
-            <div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--muted)', marginBottom: '2px' }}>GitHub</div>
-              <a href="https://github.com/hdqn" target="_blank" rel="noopener noreferrer">github.com/hdqn</a>
-            </div>
-          </div>
-
-          <div className="status-badge">Aktif olarak gelişim arayışındayım</div>
-        </aside>
       </div>
     </section>
   );

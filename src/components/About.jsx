@@ -1,8 +1,3 @@
-const SKILLS = [
-  '.NET Core', 'C#', 'ASP.NET Web API', 'Entity Framework Core',
-  'SQL Server', 'Docker', 'JavaScript', 'Git', 'REST API', 'LINQ',
-];
-
 export default function About() {
   return (
     <section id="about" className="section">
@@ -65,16 +60,6 @@ export default function About() {
                 ✉️ Mail Gönder
               </a>
             </div>
-          </div>
-
-          {/* Right: Skills */}
-          <div>
-            <p className="skills-title">Teknolojiler &amp; Araçlar</p>
-            <ul className="badges" role="list" aria-label="Teknoloji listesi">
-              {SKILLS.map((s) => (
-                <li key={s}>{s}</li>
-              ))}
-            </ul>
           </div>
         </div>
       </div>

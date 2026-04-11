@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import ParticleCanvas from './components/ParticleCanvas';
+import ParallaxBackground from './components/ParallaxBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
 import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -26,14 +27,16 @@ export default function App() {
 
   return (
     <>
-      <ParticleCanvas />
+      <ParallaxBackground />
       <Navbar theme={theme} onThemeToggle={toggleTheme} />
       <main>
         <Hero />
         <div className="wrap"><div className="section-divider" /></div>
+        <About />
+        <div className="wrap"><div className="section-divider" /></div>
         <Projects />
         <div className="wrap"><div className="section-divider" /></div>
-        <About />
+        <Skills />
         <div className="wrap"><div className="section-divider" /></div>
         <Contact />
       </main>
