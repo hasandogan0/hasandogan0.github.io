@@ -18,8 +18,8 @@ const CONTACT_INFO = [
     icon: '🐙',
     label: 'GitHub',
     value: (
-      <a href="https://github.com/hdqn" target="_blank" rel="noopener noreferrer">
-        github.com/hdqn
+      <a href="https://github.com/hasandogan0" target="_blank" rel="noopener noreferrer">
+        github.com/hasandogan0
       </a>
     ),
   },

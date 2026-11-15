@@ -10,7 +10,7 @@ export default function Footer() {
           </p>
           <div className="footer-links">
             <a
-              href="https://github.com/hdqn"
+              href="https://github.com/hasandogan0"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub profilim"

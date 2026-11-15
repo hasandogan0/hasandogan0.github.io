@@ -11,8 +11,8 @@ export default function About() {
           {/* Left: Text */}
           <div className="about-text">
             <p>
-              <span className="highlight">Aksaray Üniversitesi Yazılım Mühendisliği</span> öğrencisiyim.
-              Backend geliştirme, sistem mimarisi ve veri yönetimi konularında kendimi geliştirmeye
+              <span className="highlight">Aksaray Üniversitesi Yazılım Mühendisliği</span> mezunuyum.
+              Backend geliştirme, sistem mimarisi ve veri yönetimi konularında projeler geliştirmeye
               odaklanıyorum.
             </p>
             <p>
@@ -46,18 +46,18 @@ export default function About() {
               <a
                 id="githubProfileLink"
                 className="btn btn-primary"
-                href="https://github.com/hdqn"
+                href="https://github.com/hasandogan0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                🐙 GitHub Profilim
+                GitHub Profilim
               </a>
               <a
                 id="emailLink"
                 className="btn btn-outline"
                 href="mailto:hasandqn106@gmail.com"
               >
-                ✉️ Mail Gönder
+                Mail Gönder
               </a>
             </div>
           </div>

@@ -7,7 +7,7 @@ const PROJECTS = [
     tags: ['.NET Core', 'Web API', 'SQL Server'],
     emoji: '📊',
     gradient: 'linear-gradient(135deg, #1a0533 0%, #2d1054 50%, #180d40 100%)',
-    github: 'https://github.com/hdqn',
+    github: 'https://github.com/hasandogan0',
   },
   {
     id: 'educore',
@@ -17,7 +17,7 @@ const PROJECTS = [
     tags: ['ASP.NET', 'EF Core', 'REST API'],
     emoji: '🎓',
     gradient: 'linear-gradient(135deg, #0a1a2e 0%, #0f3460 50%, #1a1040 100%)',
-    github: 'https://github.com/hdqn',
+    github: 'https://github.com/hasandogan0',
   },
   {
     id: 'winhydra',
@@ -27,7 +27,7 @@ const PROJECTS = [
     tags: ['C#', 'WinForms', 'Windows'],
     emoji: '🛠️',
     gradient: 'linear-gradient(135deg, #0d1f0d 0%, #1a3a1a 50%, #102010 100%)',
-    github: 'https://github.com/hdqn',
+    github: 'https://github.com/hasandogan0',
   },
   {
     id: 'photo-cryptology',
@@ -37,7 +37,7 @@ const PROJECTS = [
     tags: ['C#', 'Kriptografi', 'Steganografi'],
     emoji: '🔐',
     gradient: 'linear-gradient(135deg, #1a0d00 0%, #3d1a00 50%, #281000 100%)',
-    github: 'https://github.com/hdqn',
+    github: 'https://github.com/hasandogan0',
   },
 ];
 
